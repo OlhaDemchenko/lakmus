@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+
+  div {
+    margin: 10px 0;
+    color: #5d5d5d;
+
+    button {
+      border: 1px #60cd32 solid;
+      border-radius: 5px;
+      background-color: transparent;
+      color: #60cd32;
+      padding: 10px;
+      font-weight: bold;
+      width: 100%;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}
